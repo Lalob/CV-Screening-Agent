@@ -1,12 +1,10 @@
-# Ignore Python cache files
+venv/
+lib/
+bin/
 __pycache__/
 *.pyc
-
-# Ignore virtual environment
-venv/
-
-# Ignore local environment variables
-.env
-
-# Ignore OS-specific files
+*.pyo
+*.pyd
+*.log
 .DS_Store
+.env
